@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.book-container {
+  perspective: 2000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.transform {
+  transform-style: preserve-3d;
+}
+
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
+.perspective-[2000px] {
+  perspective: 2000px;
+}
+
+.prose {
+  font-family: 'Crimson Text', Georgia, serif;
+}
